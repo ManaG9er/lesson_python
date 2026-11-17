@@ -1,0 +1,8 @@
+num1_str = input("Введите первое целое число :")
+num2_str = input("Введите второе целое число :")
+
+num1 = int(num1_str)
+num2 = int(num2_str)
+
+result = num1 + num2
+print("Результат:" , result)
