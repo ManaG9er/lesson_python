@@ -1,0 +1,10 @@
+from enum import unique
+
+shopping_list = ["хлеб", "молоко", "яблоки", "сыр"]
+print("Список:",shopping_list)
+
+shopping_list.append("масло")
+print("Список после добавления:",shopping_list)
+
+unique_items = set(shopping_list)
+print("Множество unique_items:", unique_items) #отличается от  list порядком добавления переменных  
