@@ -1,0 +1,9 @@
+import math
+import random
+
+x= random.uniform (-10, 10)
+y= random.uniform (-10, 10)
+
+distance = math.hypot(x,y)
+print(f"Случайная точка : {x:.2f},{y:.2f}")
+print(f"Рассояние до начала координат : {distance:.2f}")
